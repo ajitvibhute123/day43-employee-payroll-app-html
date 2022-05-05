@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 0px solid green;
+    border: 5px solid green;
     width:80%;
 }
 
@@ -46,20 +46,23 @@ body{
 
 .form-content {
     min-height: calc(100% - 80px);
-    background-color: #f7f7f7;
+    background-color: #a8c524;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0px solid green;
+    border: 100px solid rgb(45, 200, 206);
+    
 }
 
 .form {
     width: 65%;
+    
     padding: 44px 60px;
     background: #ffffff 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #f5f5f5;
     border-radius: 8px;
     opacity: 1;
+
 }
 
 .form-head {
@@ -70,13 +73,62 @@ body{
     opacity: 1;
     padding-bottom: 20px;
 }
+.ajit{
+    
+    background-color: #e1f017;
+   
 
+}
+
+.ajit1{
+    width: 30%;
+    height: 200px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(30, 109, 179), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
+.ajit2{
+    width: 30%;
+    height: 100px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(209, 25, 25), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
+.ajit3{
+    width: 30%;
+    height: 100px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(236, 14, 225), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
 .row-content {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
     align-items: center;
-    border: 0px solid green;
+    border: 5px solid rgb(27, 201, 224);
+    style="width:100%"
+    
+
+
 }
 
 .label {
@@ -90,7 +142,7 @@ label {
 
 .text {
     font-size: 16px;
-    color: #42525f;
+    color: #3434a5;
     opacity: 1;
     font-family: Roboto;
 }
@@ -118,6 +170,7 @@ label {
     width: 40px;
     border-radius: 50%;
     margin-left: 12px;
+    background-color: #d456aa;
 }
 
 select {
@@ -142,25 +195,26 @@ select {
     font-size: 17px;
     font-family: Roboto;
     letter-spacing: 0px;
-    color: #42515f;
+    color: #df3308;
     opacity: 1;
     background: transparent;
     border: none;
     font-weight: 400;
     min-width: 110px;
     padding: 5px 5px;
-    border: 1px solid #707070;
+    border: 1px solid #9e5b5b;
     cursor: pointer;
 }
 
 .submitButton {
     border: none;
-    background-color: #f5f5f5;
+    background-color: #c4929a;
     margin-right: 30px;
 }
 
 .cancelButton {
     text-decoration: none;
+    
     text-align: center;
 }
 
